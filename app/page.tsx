@@ -83,24 +83,32 @@ const t = {
         text: "Educación básica y media.",
       },
       {
+        period: "Inicio de estudios superiores",
+        title: "Ingeniería en Informática · Duoc UC, Viña del Mar",
+        text: "Comencé mi formación en desarrollo de software, bases de datos y fundamentos de la ingeniería informática.",
+      },
+      {
         period: "2024 – 2026",
         title: "Misionero de tiempo completo · La Iglesia de Jesucristo de los Santos de los Últimos Días",
-        text: "Desarrollé comunicación, trabajo en equipo y liderazgo, adaptándome a nuevos ambientes y desafíos, con contacto diario con personas de todo tipo.",
+        text: "Pausé mis estudios para servir una misión de tiempo completo, donde desarrollé comunicación, trabajo en equipo y liderazgo, adaptándome a nuevos ambientes y desafíos.",
       },
       {
         period: "Graduación 2026",
-        title: "Ingeniería en Informática · Duoc UC, Viña del Mar",
-        text: "Formación en desarrollo de software, bases de datos, big data, minería de datos, deep learning y gestión de riesgos.",
+        title: "Retorno a Ingeniería en Informática · Duoc UC",
+        text: "Retomé la carrera en su etapa final: big data, minería de datos, deep learning y gestión de riesgos, con graduación esperada en 2026.",
       },
     ],
     skillsTitle: "Habilidades",
     skills: [
       { group: "Frontend", items: "React · Next.js · TypeScript · JavaScript · HTML5 · CSS3 · Tailwind CSS · Bootstrap · diseño responsivo" },
-      { group: "Backend y APIs", items: "Node.js · diseño de APIs REST · autenticación de sistemas" },
-      { group: "Datos y Machine Learning", items: "Python · Pandas · NumPy · TensorFlow · Scikit-learn · MLP, CNN, RNN · CRISP-DM · evaluación de modelos" },
-      { group: "Bases de datos", items: "Oracle SQL · MySQL · Firebase (Firestore, Auth) · consultas complejas, JOINs, subconsultas" },
-      { group: "Cloud y DevOps", items: "Google Cloud Platform (BigQuery, Cloud Storage) · Vercel · Firebase · Docker · Git/GitHub · CI/CD" },
-      { group: "Otros conocimientos", items: "Java (POO) · Agile/Scrum · fundamentos de redes y ciberseguridad (Cisco NetAcad) · gestión de riesgos (PMBOK, PERT)" },
+      { group: "Backend y APIs", items: "Node.js · JavaScript/TypeScript · diseño de APIs RESTful · autenticación de sistemas" },
+      { group: "Bases de datos", items: "Oracle SQL · MySQL · Firebase (Firestore, Authentication) · consultas SQL complejas · JOINs · subconsultas" },
+      { group: "Ciencia de Datos y Machine Learning", items: "Python · NumPy · Pandas · TensorFlow · Scikit-learn · arquitecturas MLP, CNN y RNN · procesamiento de datasets · métricas de evaluación de modelos" },
+      { group: "Minería de Datos", items: "Metodología CRISP-DM · limpieza de datos · SVM · árboles de decisión · técnicas de clustering" },
+      { group: "Big Data", items: "Laboratorios prácticos con Google Cloud Platform: Cloud Storage, BigQuery y Data Studio" },
+      { group: "Cloud y DevOps", items: "Firebase · Vercel · Google Cloud Platform (Cloud Storage, BigQuery, Data Studio) · Docker · Git/GitHub · CI/CD" },
+      { group: "Gestión de Riesgos", items: "Framework PMBOK · estimación PERT · identificación de riesgos · documentación de estrategias de mitigación" },
+      { group: "Otras habilidades", items: "Java (POO) · Agile/Scrum · Cisco Networking: Introducción a la Ciberseguridad y Fundamentos de Redes" },
     ],
     langsTitle: "Idiomas",
     langs: "Español nativo · Inglés intermedio–avanzado",
@@ -187,24 +195,32 @@ const t = {
         text: "Primary and secondary education.",
       },
       {
+        period: "Start of higher education",
+        title: "Computer Science Engineering · Duoc UC, Viña del Mar",
+        text: "Began my training in software development, databases and computer engineering fundamentals.",
+      },
+      {
         period: "2024 – 2026",
         title: "Full-time missionary · The Church of Jesus Christ of Latter-day Saints",
-        text: "Developed communication, teamwork and leadership skills, adapting to new environments and challenges, with daily contact with people from all walks of life.",
+        text: "Paused my studies to serve a full-time mission, where I developed communication, teamwork and leadership skills, adapting to new environments and challenges.",
       },
       {
         period: "Graduating 2026",
-        title: "Computer Science Engineering · Duoc UC, Viña del Mar",
-        text: "Training in software development, databases, big data, data mining, deep learning and risk management.",
+        title: "Return to Computer Science Engineering · Duoc UC",
+        text: "Resumed the program in its final stage: big data, data mining, deep learning and risk management, with expected graduation in 2026.",
       },
     ],
     skillsTitle: "Skills",
     skills: [
       { group: "Frontend", items: "React · Next.js · TypeScript · JavaScript · HTML5 · CSS3 · Tailwind CSS · Bootstrap · responsive design" },
-      { group: "Backend & APIs", items: "Node.js · RESTful API design · authentication systems" },
-      { group: "Data & Machine Learning", items: "Python · Pandas · NumPy · TensorFlow · Scikit-learn · MLP, CNN, RNN · CRISP-DM · model evaluation" },
-      { group: "Databases", items: "Oracle SQL · MySQL · Firebase (Firestore, Auth) · complex queries, JOINs, subqueries" },
-      { group: "Cloud & DevOps", items: "Google Cloud Platform (BigQuery, Cloud Storage) · Vercel · Firebase · Docker · Git/GitHub · CI/CD" },
-      { group: "Other knowledge", items: "Java (OOP) · Agile/Scrum · networking & cybersecurity fundamentals (Cisco NetAcad) · risk management (PMBOK, PERT)" },
+      { group: "Backend & APIs", items: "Node.js · JavaScript/TypeScript · RESTful API design · authentication systems" },
+      { group: "Databases", items: "Oracle SQL · MySQL · Firebase (Firestore, Authentication) · complex SQL queries · JOINs · subqueries" },
+      { group: "Data Science & Machine Learning", items: "Python · NumPy · Pandas · TensorFlow · Scikit-learn · MLP, CNN and RNN architectures · dataset processing · model evaluation metrics" },
+      { group: "Data Mining", items: "CRISP-DM methodology · data cleaning · SVM · decision trees · clustering techniques" },
+      { group: "Big Data", items: "Hands-on labs with Google Cloud Platform: Cloud Storage, BigQuery and Data Studio" },
+      { group: "Cloud & DevOps", items: "Firebase · Vercel · Google Cloud Platform (Cloud Storage, BigQuery, Data Studio) · Docker · Git/GitHub · CI/CD" },
+      { group: "Risk Management", items: "PMBOK framework · PERT estimation · risk identification · mitigation strategy documentation" },
+      { group: "Other skills", items: "Java (OOP) · Agile/Scrum · Cisco Networking: Introduction to Cybersecurity and Networking Fundamentals" },
     ],
     langsTitle: "Languages",
     langs: "Native Spanish · Intermediate–advanced English",
@@ -217,16 +233,18 @@ const t = {
 
 function useReveal() {
   useEffect(() => {
-    const els = document.querySelectorAll(".reveal");
+    // El contenido es visible por defecto (ver globals.css); esto solo
+    // agrega una animación sutil de entrada la primera vez que aparece.
+    const els = document.querySelectorAll(".reveal:not(.animate-in)");
     const io = new IntersectionObserver(
       (entries) =>
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            e.target.classList.add("visible");
+            e.target.classList.add("animate-in");
             io.unobserve(e.target);
           }
         }),
-      { threshold: 0.12 }
+      { threshold: 0.1 }
     );
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();

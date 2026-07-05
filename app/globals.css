@@ -17,14 +17,17 @@ html {
   }
 }
 
+/* Contenido siempre visible; la animación es solo un acento inicial */
 .reveal {
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.reveal.visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+}
+.reveal.animate-in {
+  animation: fadeUp 0.6s ease both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
 }
 
 ::selection {
